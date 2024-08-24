@@ -99,7 +99,9 @@ html {
 
     justify-content: space-between;
 }
-
+.menhid{
+    display: none;;
+}
 #menu {
 
     height: 100%;
@@ -209,10 +211,22 @@ th {
     }
     #ver,aside ul li {
         /* display: hidden; */
-        color:black;
+        display: none;
+        /* color:black; */
     }
     #zzz{
         display: none;
+    }
+    #m{
+     position:relative;
+     left: -35vw;;
+     top: 1.5vh;
+    }
+    #menu{
+        display: none;
+    }
+    .menhid{
+        display: flex;
     }
 }
 @media (max-width:1025px){
