@@ -166,7 +166,9 @@ html {
     margin-bottom: 5vh;
     color: #ccd6f6;
 }
-
+summary{
+    color :wheat;
+}
 th {
     color: #64ffda;
 }
